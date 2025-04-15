@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e8f6e9;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.day-container {
+  display: flex;
+  padding: 20px;
+  background: #ffffff;
+  gap: 30px;
+  border-radius: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 75%;
+}
+
+.grid-container .week {
+  text-align: center;
+  padding: 10px 20px;
+  background: #15b200;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: bold;
+}
